@@ -1,4 +1,4 @@
-package com.example.vigi.test;
+package com.example.vigi.hotwordswall;
 
 import android.content.Context;
 import android.content.res.Resources;

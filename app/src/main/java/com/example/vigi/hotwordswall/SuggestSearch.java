@@ -1,4 +1,4 @@
-package com.example.vigi.test;
+package com.example.vigi.hotwordswall;
 
 import com.alibaba.fastjson.annotation.JSONField;
 
