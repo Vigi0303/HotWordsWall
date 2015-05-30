@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			  android:layout_width="match_parent"
+			  android:layout_height="match_parent"
+			  android:orientation="vertical">
+
+	<TextView
+		android:id="@+id/textView"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="this is a search panel"
+		android:padding="10dp"
+		android:background="#fffdffe3"
+		android:gravity="center"
+		android:textSize="30sp"/>
+
+	<com.example.vigi.test.HotWordsWall
+		android:id="@+id/wall"
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="1"
+		android:padding="10dp"/>
+
+	<Button
+		android:id="@+id/refresh_bt"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:padding="10dp"
+		android:text="refresh"
+		android:textSize="30sp"/>
+
+</LinearLayout>
